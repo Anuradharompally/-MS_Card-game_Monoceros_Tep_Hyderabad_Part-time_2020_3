@@ -11,7 +11,9 @@ There are two players, the player and the dealer. The dealer is controlled by th
 ## Testing
 * Jasmine
 
-## play game https://anuradharompally.github.io/-MS_Card-game_Monoceros_Tep_Hyderabad_Part-time_2020_3/
+## play game:
+
+https://anuradharompally.github.io/-MS_Card-game_Monoceros_Tep_Hyderabad_Part-time_2020_3/
 
 ## screenshot
 
