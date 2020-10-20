@@ -10,5 +10,6 @@ There are two players, the player and the dealer. The dealer is controlled by th
 
 ##Testing
 * Jasmine
+##play game ![Screenshot](https://user-images.githubusercontent.com/70049584/96565097-8ac46380-12e1-11eb-8202-23adbf7dd408.png)
 
 
