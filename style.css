@@ -169,28 +169,5 @@ h1 {
 #bet-button:hover{
    background-color: purple;
 }
-.Roses
-{ 
-  
-   position: absolute;
-   top:-270px;
-   left:0px;
-    font-size: 40px;
-    text-align: center;
-    height:50px;
-    line-height: 90vh;
-    color: #fcedd8;
-    
-     font-family: 'Niconne', cursive;
-    font-weight: 700;
-    text-shadow: 2px 2px 0px #eb452b, 
-                4px 4px 0px #efa032, 
-                6px 6px 0px #46b59b, 
-                8px 8px 0px #017e7f, 
-                6px 6px 0px #052939, 
-                7px 7px 0px #c11a2b, 
-                8px 8px 0px #c11a2b, 
-                9px 9px 0px #c11a2b, 
-                10px 10px 0px #c11a2b;
-}
+
 
