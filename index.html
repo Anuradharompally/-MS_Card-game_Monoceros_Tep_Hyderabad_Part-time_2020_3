@@ -15,17 +15,17 @@
 <div class="content">
 </div>
 
-<div>Blackjack</div>
+<div class="Roses">Blackjack</div>
     <div id="table">
       <div id="messages"></div>
-      <label class="label" style="font-size:xx-large; ">Dealer: </label>
+      <label class="label" style="font-size:xx-large; text-shadow: 2px 2px purple;">Dealer: </label>
       <label id="dealer-points" class="points"style="font-size:xx-large;"></label>
       <div id="dealer-hand" class="hand">
       </div>
-      <label class="label" style="font-size:xx-large;">Player: </label>
+      <label class="label" style="font-size:xx-large;text-shadow: 2px 2px purple;">Player: </label>
       <label id="player-points" class="points"style="font-size:xx-large;"></label>
       <br>
-      <label class="money" style="font-size:xx-large;">Bank: C</label>
+      <label class="money" style="font-size:xx-large;text-shadow: 2px 2px purple;">Bank: C</label>
       <label id ='player-money'class="money" style="font-size:xx-large;">500</label>
       <div id="player-hand" class="hand">
       </div>
@@ -35,6 +35,41 @@
         <button id="stand-button">Stand</button>
         <button id='bet-button'>Bet C100</button>
       </div>
+
+      
+
+<button class="btn"onclick="myFunction()">Rules</button>
+
+<div id="myDIV">
+<ul>
+<li><span>The goal of blackjack is to beat the dealer's hand without going over 21</span></li>
+<li><span>Face cards are worth 10. Aces are worth 1 or 11, whichever makes a better hand</span></li> 
+<li>Each player starts with two cards, one of the dealer's cards is hidden until the end</li> 
+<li>To 'Hit' is to ask for another card. To 'Stand' is to hold your total and end your turn.</li>
+<li>If you go over 21 you bust, and the dealer wins regardless of the dealer's hand</li>
+<li>If you are dealt 21 from the start (Ace & 10), you got a blackjack</li>
+<li>Blackjack usually means you win 1.5 the amount of your bet. Depends on the casino.</li>
+<li>Dealer will hit until his/her cards total 17 or higher.<br></li>
+<li>Doubling is like a hit, only the bet is doubled and you only get one more card.</li>
+<li>Split can be done when you have two of the same card - the pair is split into two hands.</li> 
+<li>Splitting also doubles the bet, because each new hand is worth the original bet.</li> 
+<li>You can only double/split on the first move, or first move of a hand created by a split.</li>
+<li>You cannot play on two aces after they are split.</li> 
+<li>You can double on a hand resulting from a split, tripling or quadrupling you bet.</li>
+</ul>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
     </div>
   </body>
 </html>
