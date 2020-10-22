@@ -17,7 +17,8 @@ https://anuradharompally.github.io/-MS_Card-game_Monoceros_Tep_Hyderabad_Part-ti
 
 ## screenshot
 
-![Screenshot](https://user-images.githubusercontent.com/70049584/96565097-8ac46380-12e1-11eb-8202-23adbf7dd408.png)
+![Capture](https://user-images.githubusercontent.com/70049584/96902737-869b7000-14b2-11eb-8190-c885499982c3.png)
+
 
 ## jasmine tests
 
